@@ -9,39 +9,29 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <div className="flex justify-center bg-slate-100 text-slate-800 text-xl font-quicksand">
             <div className="w-[1920px]">
-      <header className="flex justify-center content-center text-6xl py-24 bg-slate-50 font-playfair"> <h1>{title}</h1></header>
+      <header className="flex justify-center content-center text-6xl py-24 bg-orange-50 font-playfair"> <h1>{title}</h1></header>
       
       <main>
-        <Section style="standard" bgColor="bg-rose-100" heading="We're getting married!" image={<StaticImage src="../images/CCwedding.jpg" className="rounded-lg" alt="Claire and Chris at a wedding" height={400} width={300} quality={100}/>}>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac laoreet sapien. Suspendisse mollis nisi lacus, imperdiet tempus lectus suscipit nec. 
-            Sed volutpat fringilla mauris, vitae ultricies nisl tristique ac. Nulla volutpat, lacus a facilisis semper, sem magna ullamcorper nisl, non mollis quam ligula nec mi. 
-            Vestibulum et lectus odio. Integer vel consequat tortor. Maecenas bibendum ex tortor. Duis laoreet vel quam ut convallis. Aenean pulvinar est nec ex pretium varius. 
-            Aliquam pulvinar ut augue id tincidunt. Etiam at est odio. Cras velit odio, dictum ac elit non, suscipit posuere tellus. Nulla molestie nisl sit amet ante aliquam, sed dictum nisi faucibus. 
-            Aliquam vel augue eu leo egestas iaculis vel vitae urna.</p>
-          <br></br>
-          <p>Curabitur semper sodales nisl. Curabitur maximus felis eu massa tincidunt elementum. Duis aliquet leo eu nisi placerat, eu cursus lorem gravida. 
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi pretium arcu vel magna interdum semper. 
-            Integer euismod diam eleifend, viverra nisl ut, imperdiet turpis. Maecenas mollis, quam eget aliquam scelerisque, quam eros aliquet mauris, ac gravida sapien felis ut nulla. 
-            Sed feugiat lobortis metus vitae dignissim. Nullam ac lacus ac nisi gravida condimentum ac quis odio. Maecenas nulla arcu, euismod vitae eros vel, iaculis vehicula lectus. 
-            Pellentesque tempor metus sed mauris vestibulum, eu eleifend mauris maximus. Sed in mi at diam sodales tincidunt.</p>
+        <Section style="standard" bgColor="bg-teal-100" heading="We're getting married!" image={<StaticImage src="../images/CCwedding.jpg" className="rounded-lg" alt="Claire and Chris at a wedding" height={400} width={300} quality={100}/>}>
+          <p> On 10th September 2024 we will be getting married in Crete, surrounded by a small number of family members. 
+            Whilst we've decided to have a very small ceremony it's still really important to us that we can celebrate our marriage with
+            all our family and friends. We will therefore be having a wedding party on Saturday 28th September and would love if you could join us!</p>
         </Section>
 
-        <Section style="alt" bgColor="bg-slate-100" heading="Party details" image={<StaticImage src="../images/York.jpg" className="rounded-md" alt="York" height={400} width={600} quality={100} />}>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac laoreet sapien. Suspendisse mollis nisi lacus, imperdiet tempus lectus suscipit nec. 
-            Sed volutpat fringilla mauris, vitae ultricies nisl tristique ac. Nulla volutpat, lacus a facilisis semper, sem magna ullamcorper nisl, non mollis quam ligula nec mi. 
-            Vestibulum et lectus odio. Integer vel consequat tortor. Maecenas bibendum ex tortor. Duis laoreet vel quam ut convallis. Aenean pulvinar est nec ex pretium varius. 
-            Aliquam pulvinar ut augue id tincidunt. Etiam at est odio. Cras velit odio, dictum ac elit non, suscipit posuere tellus. Nulla molestie nisl sit amet ante aliquam, sed dictum nisi faucibus. 
-            Aliquam vel augue eu leo egestas iaculis vel vitae urna.</p>
+        <Section style="alt" bgColor="bg-orange-50" heading="Party details" image={<StaticImage src="../images/York.jpg" className="rounded-md" alt="York" height={400} width={600} quality={100} />}>
+        <p> Saturday 28th September</p>
+           <p> 12-5pm</p>
+           <p> <a href="https://eagleandchildyork.co.uk/contact" className="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">The Eagle & Child York</a> (top floor)</p>
           <br></br>
-          <p>Curabitur semper sodales nisl. Curabitur maximus felis eu massa tincidunt elementum. Duis aliquet leo eu nisi placerat, eu cursus lorem gravida. 
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi pretium arcu vel magna interdum semper. 
-            Integer euismod diam eleifend, viverra nisl ut, imperdiet turpis. Maecenas mollis, quam eget aliquam scelerisque, quam eros aliquet mauris, ac gravida sapien felis ut nulla. 
-            Sed feugiat lobortis metus vitae dignissim. Nullam ac lacus ac nisi gravida condimentum ac quis odio. Maecenas nulla arcu, euismod vitae eros vel, iaculis vehicula lectus. 
-            Pellentesque tempor metus sed mauris vestibulum, eu eleifend mauris maximus. Sed in mi at diam sodales tincidunt.</p>
+          <p> It will be a very relaxed celebration so please feel free to arrive at any time and stay for as long or as short as 
+            suits you. A buffet will be available from around 12:30pm, with cake served later in the afternoon.</p>
+          <br></br>  
+          <p>With the aim of keeping it relaxed we won't be doing any speeches or having a dress code. We also don't expect any gifts. 
+            We really just want to spend some time with our family and friends whilst enjoing some food and drink!</p>
         </Section>
 
         <Section style="standard" bgColor="bg-pink-100" heading="RSVP" image={<StaticImage src="../images/CCcornwall.jpg" className="rounded-lg" alt="Claire and Chris in Cornwall"height={300} width={400} quality={100} />}>
-          <p>Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test </p>
+          <p> If you are able to join us it would be useful to know so we can make sure we have enough food and are able to cater for any dietary requirements. Please let us know either by completing our <a href="https://forms.gle/xCRbgg3tYdNgRajz9" className="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">RSVP form</a> or by messaging either one of us.</p>
         </Section>
       </main>
     </div></div>
