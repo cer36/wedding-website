@@ -20,12 +20,12 @@ const Section: FC<PropsWithChildren<SectionProps>> = ({
     return (
         <section
             className={`py-24 2xl:px-64 lg:px-48 md:px-24 px-12 ${
-                style === "alt" ? `${styleProps} text-right` : styleProps
+                style === "alt" ? `${styleProps} 2xl:text-right` : styleProps
             }`}
         >
             <div className="2xl:flex 2xl:gap-36">
                 <div className={`self-center ${style === "alt" ? " pb-8 xl:pb-0 xl:order-last" : ""}`}>
-                    <h2 className="font-playfair mb-12 tracking-tight leading-none text-5xl lg:text-6xl">
+                    <h2 className="font-playfair mb-12 tracking-tight leading-none text-4xl lg:text-5xl">
                         {heading}
                     </h2>
                     <div className="font-playfair"> {children}</div>
