@@ -16,6 +16,12 @@ const config: GatsbyConfig = {
       "path": "./src/images/"
     },
     __key: "images"
+  },
+  {
+    resolve: '@mkitio/gatsby-theme-password-protect',
+    options: {
+      password: 'clairechrisyork' // delete or `undefined` to disable password protection
+    }
   }]
 };
 
