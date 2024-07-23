@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      "playfair": ["Playfair"]
+      "playfair": ["Playfair"],
+      "forum": ["Forum"]
     }
   },
   plugins: [],

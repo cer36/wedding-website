@@ -9,4 +9,10 @@
         font-display: swap;
         src: url(/playfair.ttf); 
     }
+    @font-face {
+        font-family: Forum;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/forum.ttf); 
+    }
 }
