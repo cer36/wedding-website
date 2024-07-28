@@ -7,6 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: create-env
+        run: |
+          touch .env
+          echo API_KEY=${{ secrets.PASSWORD }} >> .env
       - uses: cer36/gatsby-gh-pages-action@v1
         with:
           deploy-branch: pages
