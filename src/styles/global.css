@@ -7,12 +7,12 @@
         font-family: Playfair;
         font-weight: 400;
         font-display: swap;
-        src: url(/wedding-website/playfair.ttf); 
+        src: url(/playfair.ttf); 
     }
     @font-face {
         font-family: Forum;
         font-weight: 400;
         font-display: swap;
-        src: url(/wedding-website/forum.ttf); 
+        src: url(/forum.ttf); 
     }
 }

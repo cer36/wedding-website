@@ -14,5 +14,4 @@ jobs:
       - uses: cer36/gatsby-gh-pages-action@v1
         with:
           deploy-branch: pages
-          gatsby-args: --prefix-paths
           access-token: ${{ secrets.ACCESS_TOKEN }}
