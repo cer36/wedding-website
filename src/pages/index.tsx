@@ -21,7 +21,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <Section style="alt" bgColor="bg-orange-50" heading="Party details" image={<StaticImage src="../images/York.jpg" className="rounded-md" alt="York" height={400} width={600} quality={100} />}>
         <div  className="font-forum"><p> Saturday 28th September</p>
            <p> 12-5pm</p>
-           <p> <a href="https://eagleandchildyork.co.uk/contact" className="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">The Eagle & Child York</a></p>
+           <p> <a href="https://eagleandchildyork.co.uk/contact" target="_blank" className="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">The Eagle & Child York</a></p>
           <br></br>
           <p> It will be a very relaxed celebration so please feel free to arrive at any time and stay for however long suits you. 
             A buffet will be available from around 12:30pm, with cake served later in the afternoon.
@@ -33,6 +33,8 @@ const IndexPage: React.FC<PageProps> = () => {
           <br></br>  
           <p>With the aim of keeping it relaxed we won't be doing any speeches or having a dress code. We also don't expect any gifts. 
             We really just want to spend some time with our family and friends whilst enjoying some food and drink!</p>
+            <br></br> 
+            <p>Plenty of car parking is available in York city centre, including the <a href="https://www.york.gov.uk/directory-record/421/monk-bar-car-park-yo31-7qr" target="_blank"  className="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">Monk Bar</a> and <a href="https://www.york.gov.uk/directory-record/418/marygate-car-park-yo30-7dt" target="_blank" className="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">Marygate</a> car parks which are just a ten-minute walk from the Eagle & Child.</p>
             </div>
         </Section>
 
